@@ -50,13 +50,6 @@ public class FundAPI {
         }
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
-    @PostMapping("")
-    ResponseEntity<Fund> create () {
-        Fund newFund = new Fund();
-        newFund.setBalance(0);
-        newFund.setCreatedDate(new Date());
-        newFund.setUser();
 
-        return new ResponseEntity<>()
-    }
+
 }
